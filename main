@@ -1,0 +1,6 @@
+budget = input("what's your budget?\n")
+print ('your budget is,' + budget + ' what would you like to buy? Here is a list of the isles that are in stock:\nfresh produce\nsationary\nsnacks\nMeat\nSeafood\nDeli\nBakery\n')
+isle = input ("what isle would you like to go and buy groceries?")
+if isle == 'Fresh Produce' or isle == 'fresh produce' or isle == 'Fresh produce' or isle == 'fresh Produce':
+ fp = input ('alright, what would you like to buy in this isle? This is a list of everything in stock in this isle plus its price :\n apples - $4.00 for 2 pounds\n bananas - $3.00 for 2 pounds\n ')
+
